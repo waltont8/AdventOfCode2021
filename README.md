@@ -6,3 +6,6 @@ Just zipwith the list of numbers with itself using (>) to get a list of bools. T
 
 ## Day 2: Dive!
 Was warming up my integer trig package when I read "aim" in part 2, but was a simple addition to part 1 in the end. Bodged the read function, which ugly, but a lot faster to type than doing the proper invertible syntax descriptions one
+
+## Day 3: Binary Diagnostic
+This was a step up in difficulty from day 2. I found it quite hard in Haskell. For Haskell I need to have the whole picture in my head to put out a good solution and there was a lot going on in the puzzle compared to 1 and 2. Part 2 didn't feel like something I could work through iteratively (not whilst trying to be quick, anyway!)
