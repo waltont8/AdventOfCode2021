@@ -12,3 +12,6 @@ This was a step up in difficulty from day 2. I found it quite hard in Haskell. F
 
 ## Day 4: Giant Squid
 For real, the thing that took the longest here was that I forgot haskell can't tell the difference between -1 and - 1. Confusing early in the day! I guessed that part 2 would punish hackery on part 1 so I took a bit longer and, hurrah, got part 2 for free.
+
+## Day 5: Hydrothermal Venture
+Big hint in part 1 that part 2 was going to add diagonal lines. Would have been interesting to see arbitrary lines but I suspect there is more than one valid way to draw such a line, also it would have been really hard to resist anti-aliasing them all. 
