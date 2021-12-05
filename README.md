@@ -15,3 +15,4 @@ For real, the thing that took the longest here was that I forgot haskell can't t
 
 ## Day 5: Hydrothermal Venture
 Big hint in part 1 that part 2 was going to add diagonal lines. Would have been interesting to see arbitrary lines but I suspect there is more than one valid way to draw such a line, also it would have been really hard to resist anti-aliasing them all. 
+![All the lines](output.png?raw=true "Vizualization")
