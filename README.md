@@ -21,3 +21,6 @@ Big hint in part 1 that part 2 was going to add diagonal lines. Would have been 
 
 ## Day 6: Lanternfish
 When it says exponentially in bold, don't brute force it! Glad it was a short one for Monday morning.
+
+## Day 7: The Treachery of Whales
+That was the shortest one yet. I fear for what's coming :)
