@@ -24,3 +24,6 @@ When it says exponentially in bold, don't brute force it! Glad it was a short on
 
 ## Day 7: The Treachery of Whales
 That was the shortest one yet. I fear for what's coming :)
+
+## Day 8: Seven Segment Search
+Part 1 was quick. Took a long time for part 2. I think, you could just brute force it and find the combinations that make sense, which sounds quicker to write. I might have a go later. I'm happy with my part 2, it was just slow to build.
