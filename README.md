@@ -27,3 +27,6 @@ That was the shortest one yet. I fear for what's coming :)
 
 ## Day 8: Seven Segment Search
 Part 1 was quick. Took a long time for part 2. I think, you could just brute force it and find the combinations that make sense, which sounds quicker to write. I might have a go later. I'm happy with my part 2, it was just slow to build.
+
+## Day 9: Smoke Basin
+There are better ways to do this using monads to pass the state around, but at 7am I'm just going to move it all around manually.
