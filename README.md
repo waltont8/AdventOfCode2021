@@ -33,3 +33,6 @@ There are better ways to do this using monads to pass the state around, but at 7
 
 ## Day 10: Syntax Scoring
 Not too difficult today, push opens onto a stack and then check its reverse is the next closing character. Part 2 was easy which usually means there is a quick hack for part 1 that I didn't use :) . 25 years of trying to pass code reviews has made it quite hard to find the hacky solution, I usually have a mental eye out for test cases and what comes next.
+
+## Day 11: Dumbo Octopus 
+Quite straightforward, wasted quite a lot of time on a ridiculous bug. Again, I threaded data through a complicated structure by hand rather than keeping it in a monad which I think is the solution I would try with more time. Clearly the thing to practice for next year is passing state around quickly the right way.
