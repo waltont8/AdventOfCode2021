@@ -4,15 +4,10 @@ module Lib
 
 
 import Control.Arrow
-import qualified Data.Set as Set
 import Data.Char
 import Data.List
 import Data.List.Split
 import qualified Data.Map as M
-import Debug.Trace
-
-data Direction = Forward | Up | Down deriving (Show, Eq)
-data Row = Row Direction Int deriving (Show, Eq)
 
 width = 100
 height = 100
