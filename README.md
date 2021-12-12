@@ -36,3 +36,6 @@ Not too difficult today, push opens onto a stack and then check its reverse is t
 
 ## Day 11: Dumbo Octopus 
 Quite straightforward, wasted quite a lot of time on a ridiculous bug. Again, I threaded data through a complicated structure by hand rather than keeping it in a monad which I think is the solution I would try with more time. Clearly the thing to practice for next year is passing state around quickly the right way.
+
+## Day 12: Passage Pathing
+Took quite a while to do this one, got lost in part 1 tracking which nodes had been visited and initially only let a node be visited once in *any* walk but obviously it's only once per individual walk. Second part was quite straightforward after that although I stopped to tidy up the mess before doing it. For part 2 I generated all possible graphs where a single lower case node can be visited twice, walked them all and merged the result. Slow, but very easy to think about when you're trying to hurry up.
