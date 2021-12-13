@@ -39,3 +39,14 @@ Quite straightforward, wasted quite a lot of time on a ridiculous bug. Again, I 
 
 ## Day 12: Passage Pathing
 Took quite a while to do this one, got lost in part 1 tracking which nodes had been visited and initially only let a node be visited once in *any* walk but obviously it's only once per individual walk. Second part was quite straightforward after that although I stopped to tidy up the mess before doing it. For part 2 I generated all possible graphs where a single lower case node can be visited twice, walked them all and merged the result. Slow, but very easy to think about when you're trying to hurry up.
+
+## Day 13: Transparent Origami
+I really like the ones where you draw out a code in big letters.
+```
+###   ##  #### ###   ##  ####  ##  ###
+#  # #  #    # #  # #  # #    #  # #  #
+###  #      #  #  # #    ###  #  # ###
+#  # #     #   ###  #    #    #### #  #
+#  # #  # #    # #  #  # #    #  # #  #
+###   ##  #### #  #  ##  #### #  # ###
+```
