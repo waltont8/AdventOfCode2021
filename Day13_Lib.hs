@@ -9,9 +9,6 @@ import Data.List
 import Data.List.Split
 import qualified Data.Map as M
 
-data Direction = Forward | Up | Down deriving (Show, Eq)
-data Row = Row Direction Int deriving (Show, Eq)
-
 fileName = "input.txt"
 --fileName = "test.txt"
 
