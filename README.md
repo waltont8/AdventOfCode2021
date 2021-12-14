@@ -50,3 +50,6 @@ I really like the ones where you draw out a code in big letters.
 #  # #  # #    # #  #  # #    #  # #  #
 ###   ##  #### #  #  ##  #### #  # ###
 ```
+
+## Day 14: Extended Polymerization
+You knew part 2 was going to be part 1 but too hard to do the simple way. I still did part 1 the simple way as it was easy and just in case part 2 wasn't what I was expecting. It feels a bit "stream of consciousness" when I look back at the code but other than cleaning up unused wrapper functions I'm not going back and tidying up any of these.
