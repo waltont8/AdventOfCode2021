@@ -30,7 +30,7 @@ Part 1 was quick. Took a long time for part 2. I think, you could just brute for
 
 ## Day 9: Smoke Basin
 There are better ways to do this using monads to pass the state around, but at 7am I'm just going to move it all around manually.
-Edit : Ok, I rewrote part 2 in the state monad. Wasn't too hard (and it's still a bit of a mess) but required more thinking than the original. I will need to write a lot of these before I can use them as quickly as bodging it with C-like Haskell :)
+<br>**Edit** : Ok, I rewrote part 2 in the state monad. Wasn't too hard (and it's still a bit of a mess) but required more thinking than the original. I will need to write a lot of these before I can use them as quickly as bodging it with C-like Haskell :)
 
 ## Day 10: Syntax Scoring
 Not too difficult today, push opens onto a stack and then check its reverse is the next closing character. Part 2 was easy which usually means there is a quick hack for part 1 that I didn't use :) . 25 years of trying to pass code reviews has made it quite hard to find the hacky solution, I usually have a mental eye out for test cases and what comes next.
