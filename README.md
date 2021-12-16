@@ -57,3 +57,6 @@ You knew part 2 was going to be part 1 but too hard to do the simple way. I stil
 
 ## Day 15: Chiton
 So this felt a bit too cheaty. It's a maze problem and Haskell has astar and dijkstra in the Algorithm.Search module, so that takes care of that. Getting the cost data in would have been tricky so I just copied the input in as a constant string inside the cost function. I guessed part2 would be either a tiling of the map or a new set of directions so I made sure the map was tiled just in case, paid off. All I really had to do for part 2 was change the number of tiles and implement the wrap back to 1 function. Bit messy, bit cheaty, but part 2 took about 10 seconds. Might come back to this one and implement something a bit cleaner.
+
+## Day 16: Packet Decoder
+I kept thinking about using one of the parsers for this but I think it would have taken longer. Many LoC in this solution, but a lot of it is pattern matching cut and paste to convert strings and numbers. Certainly this could be more compact, but I don't think it could be more obvious and I'll take obvious over compact over compact any day.
