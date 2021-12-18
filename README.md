@@ -64,3 +64,6 @@ I kept thinking about using one of the parsers for this but I think it would hav
 ## Day 17: Trick Shot
 Feels like there was probably a smarter way to do this than just trying everything. Was really tempted to ditch Haskell for this one and make a visual version with a slider that lets you adjust the velocity by hand, probably using processing.org. Might come back to it.<br>
 **Edit** : I had a look at some visualizations for this, they don't look great. The aspect ration is 1:50. Interesting that the probe curves in the opposite direction that you would expect as vx drops to zero before vy flips.
+
+## Day 18: Snailfish
+That explode function took a lot of debug, I was going down the wrong side of the right side. I wonder if you can capture left and right numbers in the type system where you could see deliberate moves but catch accidentally passing a left to a right? Something to ponder.
