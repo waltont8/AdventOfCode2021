@@ -67,3 +67,6 @@ Feels like there was probably a smarter way to do this than just trying everythi
 
 ## Day 18: Snailfish
 That explode function took a lot of debug, I was going down the wrong side of the right side. I wonder if you can capture left and right numbers in the type system where you could see deliberate moves but catch accidentally passing a left to a right? Something to ponder.
+
+## Day 19: Beacon Scanner
+This was a tough one. My first solution was done very quickly, I generated all possible rotations and positions of everything and filtered it for the right answers hoping that haskell's lazy magic would save me. It often does, it didn't this time. So I rewrote it all as what was basically for loops with break statements and that worked ok (although it still takes nearly a minute to finish on my laptop). Then part 2, which just did not work with any of my solutions, so rather than start again I just hacked something in with constants. All the stuff about 100000 is just me tracking centrepoints with known values so I can get part 2. What a mess!
