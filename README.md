@@ -70,3 +70,18 @@ That explode function took a lot of debug, I was going down the wrong side of th
 
 ## Day 19: Beacon Scanner
 This was a tough one. My first solution was done very quickly, I generated all possible rotations and positions of everything and filtered it for the right answers hoping that haskell's lazy magic would save me. It often does, it didn't this time. So I rewrote it all as what was basically for loops with break statements and that worked ok (although it still takes nearly a minute to finish on my laptop). Then part 2, which just did not work with any of my solutions, so rather than start again I just hacked something in with constants. All the stuff about 100000 is just me tracking centrepoints with known values so I can get part 2. What a mess!
+
+## Day 20: Trench Map
+Two things caught me today. One, the fact the infinite space flashes on and off. Not hard to deal with but in my head that was all blank until it got touched. The second thing is this, copied here from ghci:
+```
+*Lib> minimum [0,2]
+0
+*Lib> minimum [2,0]
+0
+*Lib> minimum (2,0)
+0
+*Lib> minimum (0,2)
+2
+*Lib>
+```
+Thanks, haskell!
