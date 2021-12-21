@@ -6,9 +6,9 @@ module Lib
 import Control.Arrow
 import Control.Monad
 import Control.Monad.State
-import           Data.Tuple
 import Data.List
 import qualified Data.Map as M
+import Data.Tuple
 import Debug.Trace
 
 
