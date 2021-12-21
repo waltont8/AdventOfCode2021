@@ -85,3 +85,6 @@ Two things caught me today. One, the fact the infinite space flashes on and off.
 *Lib>
 ```
 Thanks, haskell!
+
+## Day 21: Dirac Dice
+Part 1 was easy but fiddly. Part 2 I was quite worried about, given the large numbers, but throwing everything you've already seen into a map seemed to work. I had to re-use the state monad code from an earlier day to get the map of seen states to the code that needs it, which then meant everything was in a do block which is quite awkward. I didn't want the case statements in there but couldn't see a quick and easy way of getting rid of them. Nearly fell into that stupid max tuple hole from yesterday again.
