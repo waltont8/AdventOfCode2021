@@ -12,7 +12,6 @@ import Data.Tuple
 import Debug.Trace
 
 
-
 type Dice = Int
 type Turn = Int
 data PState = PState { score::Int, position::Int } deriving Show
