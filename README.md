@@ -88,3 +88,7 @@ Thanks, haskell!
 
 ## Day 21: Dirac Dice
 Part 1 was easy but fiddly. Part 2 I was quite worried about, given the large numbers, but throwing everything you've already seen into a map seemed to work. I had to re-use the state monad code from an earlier day to get the map of seen states to the code that needs it, which then meant everything was in a do block which is quite awkward. I didn't want the case statements in there but couldn't see a quick and easy way of getting rid of them. Nearly fell into that stupid max tuple hole from yesterday again.
+
+## Day 22: Reactor Reboot
+Pretty obvious what was coming in part 2 but I thought it best to get the points from part 1 quickly and then fight part 2. Spent quite some time fiddling about with the cube splitter until I realised you could just use a list comprehension to generate all sections and then drop the overlapping one. That shrunk a page of code into a few lines! I think you could do this with some sort of tree that recursively subdivides space which might be nice.
+
