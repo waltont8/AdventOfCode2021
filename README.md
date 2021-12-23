@@ -94,7 +94,7 @@ Part 1 was easy but fiddly. Part 2 I was quite worried about, given the large nu
 Pretty obvious what was coming in part 2 but I thought it best to get the points from part 1 quickly and then fight part 2. Spent quite some time fiddling about with the cube splitter until I realised you could just use a list comprehension to generate all sections and then drop the overlapping one. That shrunk a page of code into a few lines! I think you could do this with some sort of tree that recursively subdivides space which might be nice.
 
 ## Day 23: Amphipod
-I woke up very early this morning, didn't fancy another graph walk/optimization thing. Decided to just do this one by hand and wrote a program to help. I used processing.org to build the UI, can't have taken me more than 20 minutes. Processing is awesome for quick visual hacks.
+I woke up very early this morning, didn't fancy another graph walk/optimization thing. Decided to just do this one by hand and wrote a program to help. It has an undo stack (right-click undoes one step) and after you select a square you can keep clicking the next square without reselecting, so it's fast to try out new things. I used processing.org to build the UI, can't have taken me more than 20 minutes. Processing is awesome for quick visual hacks. 
 <p align="center">
   <img src="day23_p.png" width="550" title="Tool for day 23">
 </p>
