@@ -95,3 +95,6 @@ Pretty obvious what was coming in part 2 but I thought it best to get the points
 
 ## Day 23: Amphipod
 I woke up very early this morning, didn't fancy another graph walk/optimization thing. Decided to just do this one by hand and wrote a program to help. I used processing.org to build the UI, can't have taken me more than 20 minutes. Processing is awesome for quick visual hacks.
+<p align="center">
+  <img src="day23_p.png" width="550" title="Tool for day 23">
+</p>
