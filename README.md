@@ -98,3 +98,6 @@ I woke up very early this morning, didn't fancy another graph walk/optimization 
 <p align="center">
   <img src="day23_p.png" width="550" title="Tool for day 23">
 </p>
+
+## Day 24: Arithmetic Logic Unit
+I saw this was going to be another "too large to brute force" answer but I managed to write a parser and type system for the input program before this fact had really sunk in. So I spent some time working through the input text and ended up with the answer for part 1 by just reading the program. I included a walkthrough as a text file in the repo. Part 2 should have taken another 2 minutes but I made an error and it took about 10. Strange to be able to do two days puzzles by hand. I think it would be really interesting to code up a smart solution to this one that resolves the answer through code, it's clearly possible, but it is Christmas eve and that is a fun puzzle for another day, I just need the stars today.
